@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+
+img { 
+    max-width: 75%;
+}
+
+.macs {
+    width: 312px;
+    height: 289px; 
+    background-image: url("https://brostore.uz/cdn/shop/files/4_c48f241b-ea94-4f3f-bbeb-2a3be4200c76.png?v=1700301793");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+    display: flex;
+
+}
+
+
+.iphones1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.header h1, h3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header22 {
+    width: 280px;
+    height: 85px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+    display: flex;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.header22.active {
+    box-shadow: 0px 0px 5px blue;
+}
+
+
+
+.box2 {
+    display: flex;
+    font-size: 14px;   
+}
+
+.btn1 button{
+    background-color: blue;
+    padding-top: 22px;
+    padding-left: 68px;
+    padding-right: 62px;
+    padding-bottom: 22px;
+    border-radius: 8px;
+}
+
+.btn2 button{
+    background-color: rgb(172 185 202);
+    padding-top: 22px;
+    padding-left: 26px;
+    padding-right: 62px;
+    padding-bottom: 22px;
+    border-radius: 8px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.bloks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text a {
+    font-size: 33px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.text span{
+    font-size: 58px;
+}
